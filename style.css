@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+section {
+    height:576px;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(82, 0, 255,0.25)), url("bg.webp");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 82px;
+}
+.banner p {
+    font-size: 25px;
+}
+
+
+.information {
+    background-color: whitesmoke;
+    padding: 82px 41px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 500;
+    align-self: flex-start;
+}
+input {
+    margin: 14px 0 40px 0;
+}
+
+input,
+button {
+    width: 427px;
+    height: 65px;
+    
+}
+
+button {
+    background-color: #5200ff;
+    color: #ffffff;
+    font-size:18px;
+    font-weight: 500;
+    margin: 40px 0;
+}
+
+
+
