@@ -13,7 +13,7 @@ section {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(82, 0, 255,0.25)), url("bg.webp");
+    background-image: linear-gradient(rgba(85, 0, 255,0.75)), url("bg.webp");
     background-size: cover;
     background-position: right;
     display: flex;
@@ -36,9 +36,12 @@ h1{
 .information {
     background-color: whitesmoke;
     padding: 82px 41px;
-    display:flex;
+    display: block;
+}
+
+div {
+    display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 label {
@@ -63,6 +66,30 @@ button {
     font-size:18px;
     font-weight: 500;
     margin: 40px 0;
+}
+
+@media(min-width: 770px){
+    .information {
+        height: 250px;
+        padding: 42px 22px;
+        display: block;
+    }
+
+    .personal-info {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    input {
+        width: 300px;
+    }
+    
+    button {
+        width: 187px;
+        margin:0;
+        padding: 5px 15px;
+    }
 }
 
 
